@@ -11,6 +11,7 @@ export const ResetCSS = createGlobalStyle`
     }
     body {
         background-color: ${({theme}) => theme.colors.dark_800};
+        color:white;
     }
     a {
         color: inherit;
