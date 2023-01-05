@@ -5,7 +5,7 @@ import { Home, NotFound, Result } from '../pages'
 export function Approutes() {
   return (
     <Routes>
-      <Route path='/' element= {<Layout/>}  >
+      <Route path='/' element= {<Layout/>}>
          <Route path='/' element={<Home/>}/>
          <Route path='*' element={<NotFound/>} />
          <Route path='/pequisa' element={<Result/>} /> 

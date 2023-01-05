@@ -1,3 +1,4 @@
+import { Title } from '../../../pages/Home/styles'
 import {LogoMarvel} from './style'
 export function Header() {
   return (
